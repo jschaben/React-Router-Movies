@@ -14,6 +14,7 @@ import React from "react";const MovieCard = props => {
           {star}
         </div>
       ))}
+      
          </div>
   );
 };export default MovieCard;
