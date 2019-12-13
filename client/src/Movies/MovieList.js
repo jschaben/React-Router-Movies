@@ -14,10 +14,11 @@ const MovieList = props => {
         .catch(error => {
           console.error('Server Error', error);
         });
+        console.log(props);
     }
     
     getMovies();
-  }, []);
+  }, [props]);
   
   return (
     <div className="movie-list">
